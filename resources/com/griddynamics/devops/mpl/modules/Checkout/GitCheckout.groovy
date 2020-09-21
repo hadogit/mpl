@@ -1,10 +1,10 @@
 /**
  * Git Checkout
  */
-stage("Checkout"){
-     steps{
+stage("my Checkout"){
+ //    steps{
         git url: CFG.'git.url',
     branch: CFG.'git.branch'
-     }
+//     }
 }
 //,    credentialsId: CFG.'git.credentials'
