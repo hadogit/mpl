@@ -1,4 +1,4 @@
-vars/log.groovy
+#vars/log.groovy
 
 
 def loadColor(){  
