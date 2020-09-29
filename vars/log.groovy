@@ -9,7 +9,7 @@ def loadColor(){
 def info(message) {
   loadColor()
   //ansiColor('css') {
- echo '\033[0;43m' + "[INFO]: ${message}" + '\033[0;43m'
+ echo '\033[34m' + "[INFO]: ${message}" + '\033[34m'
   //  }
 }
 
