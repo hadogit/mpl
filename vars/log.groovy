@@ -1,9 +1,9 @@
-def loadColor(){  
+/*def loadColor(){  
  BLUE_COLOR = '\033[0;34m'
  YELLOW_COLOR  '\033[0;43m'
  RED_COLOR = '\033[0;31m'
  GREEN_COLOR = '\033[0;32m'
-}
+}*/
 
 
 def info(message) {
