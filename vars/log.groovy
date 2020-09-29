@@ -1,5 +1,3 @@
-#vars/log.groovy
-
 
 def loadColor(){  
  BLUE_COLOR = '\033[1m\033[34m'
@@ -11,28 +9,28 @@ def loadColor(){
 
 def info(message) {
   loadColor()
-  ansiColor('css') {
+  //ansiColor('css') {
     echo BLUE_COLOR + "INFO: ${message}" + BLUE_COLOR
-    }
+  //  }
 }
 
 def warning(message) {
   loadColor()
-  ansiColor('css') {
+//  ansiColor('css') {
     echo YELLOW_COLOR + "WARNING: ${message}" + YELLOW_COLOR
-    }
+ //   }
 }
 
 def error(message) {
   loadColor()
-  ansiColor('css') {
+//  ansiColor('css') {
     echo RED_COLOR + "ERROR: ${message}" + RED_COLOR
-    }
+//    }
 }
 
 def success(message) {
   loadColor()
-  ansiColor('css') {
+//  ansiColor('css') {
     echo GREEN_COLOR + "SUCCESS: ${message}" + GREEN_COLOR
-    }
+//    }
 }
