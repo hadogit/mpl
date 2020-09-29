@@ -1,8 +1,8 @@
 def loadColor(){  
- BLUE_COLOR = '\033[1m\033[34m'
- YELLOW_COLOR  '\033[1m\033[33m'
- RED_COLOR = '\033[1m\033[31m'
- GREEN_COLOR = '\033[1m\033[32m'
+ BLUE_COLOR = '\\033[1m\033[34m'
+ YELLOW_COLOR  '\\033[1m\033[33m'
+ RED_COLOR = '\\033[1m\033[31m'
+ GREEN_COLOR = '\\033[1m\033[32m'
 }
 
 
