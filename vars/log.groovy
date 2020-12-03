@@ -9,9 +9,9 @@ def loadColor(){
 
 def info(message) {
   loadColor()
-  //ansiColor('css') {
- echo "${BLUE_COLOR}" + "[INFO]: ${message}" + "${BLUE_COLOR}"
-  //  }
+  ansiColor('css') {
+	echo "${BLUE_COLOR}" + "[INFO]: ${message}" + "${BLUE_COLOR}"
+  }
 }
 
 def warning(message) {
