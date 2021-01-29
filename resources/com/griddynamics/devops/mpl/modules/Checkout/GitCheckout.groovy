@@ -7,5 +7,6 @@ stage("my Checkout"){
     branch: CFG.'git.branch'
 //     }
     CFG.'git.user' = "yakir"
+    OUT = CFG
 }
 //,    credentialsId: CFG.'git.credentials'
