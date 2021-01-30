@@ -2,6 +2,7 @@
  * Common checkout module
  */
 
+def out = [:]
 if( CFG.'git.url' )
   out = MPLModule('Git Checkout', CFG)
 else
