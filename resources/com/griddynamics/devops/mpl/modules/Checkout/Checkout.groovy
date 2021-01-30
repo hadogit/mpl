@@ -3,6 +3,10 @@
  */
 
 if( CFG.'git.url' )
-  MPLModule('Git Checkout', CFG)
+  out = MPLModule('Git Checkout', CFG)
 else
-  MPLModule('Default Checkout', CFG)
+  out = MPLModule('Default Checkout', CFG)
+
+log.info(out.'git.user')
+OUT = out
+log.info(OUT.'git.user')
