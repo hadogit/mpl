@@ -8,6 +8,6 @@ else
   out = MPLModule('Default Checkout', CFG)
 
 log.info(out.'git.user')
-OUT.'git.user' = out.'git.user'
+OUT.'out.git.user' = out.'git.user'
 //OUT = out
-log.info(OUT.'git.user')
+log.info(OUT.'out.git.user')
