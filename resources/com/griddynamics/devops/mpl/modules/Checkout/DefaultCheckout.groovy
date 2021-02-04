@@ -3,4 +3,15 @@
  */
  
 log.info("Checkout")
-checkout scm
+//checkout scm
+
+checkout( 
+    scm: [
+        $class: 'GitSCM', branches: [[name: CFG.'git.branch']], 
+        doGenerateSubmoduleConfigurations: false, 
+        extensions: [
+            [$class: 'CloneOption', noTags: CFG.'git.noTags', reference: '', shallow: CFG.'git.shallow'], 
+            [$class: 'CleanBeforeCheckout']], submoduleCfg: [], url: "${CFG.'git.url'}"]
+        ]
+    ]			
+)
