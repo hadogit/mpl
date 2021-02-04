@@ -15,10 +15,11 @@ else
 //println("temp.out: " + temp.'out'.getClass())
 println("CFG: " + CFG.getClass())
 println("OUT: " + OUT.getClass())
+println("OUT.info: " + OUT.'info'.getClass())
 println("---------------")
 
 println("CFG.git: " + CFG.'git')
 //OUT = Helper.mergeMaps(CFG,temp.'out')
 //log.info(out.'git.user')
 //OUT = temp
-log.info("OUT.out.git.user : " +  OUT.'out.git.user')
+log.info("OUT.info.git.user : " +  OUT.'info.git.user')
