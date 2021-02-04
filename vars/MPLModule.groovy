@@ -107,6 +107,6 @@ def call(String name = env.STAGE_NAME, cfg = null) {
     }
     MPLManager.instance.popActiveModule(block_id)
   }
-
+  log.info(out.'git.user')
   return out
 }
