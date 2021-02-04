@@ -19,11 +19,11 @@ println("OUT.info: " + OUT.'info'.getClass())
 println("---------------")
 
 println("CFG.git: " + CFG.'git')
-OUT = Helper.mergeMaps(CFG,OUT.'info')
+OUT = Helper.mergeMaps(CFG.'git',OUT.'info.git')
 //log.info(out.'git.user')
 //OUT = temp
 log.info("OUT.git.user : " +  OUT.'git.user')
 log.info("OUT.'git.url' : " +  OUT.'git.url')
 OUT.'git.user' = "other"
 log.info("OUT.git.user : " +  OUT.'git.user')
-
+println(temp.size())
