@@ -24,3 +24,6 @@ OUT = Helper.mergeMaps(CFG,OUT.'info')
 //OUT = temp
 log.info("OUT.git.user : " +  OUT.'git.user')
 log.info("OUT.'git.url' : " +  OUT.'git.url')
+OUT.'git.user' = "other"
+log.info("OUT.git.user : " +  OUT.'git.user')
+
