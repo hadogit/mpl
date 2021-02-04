@@ -10,8 +10,8 @@ if( CFG.'git.url' )
 else
   temp = MPLModule('Default Checkout', CFG)
  // OUT = Helper.mergeMaps(CFG,MPLModule('Default Checkout', CFG))
-//OUT.'info.git.user' = temp.'info.git.user'
-OUT = Helper.mergeMaps(CFG,temp.'info')
+OUT.'checkout.git.user' = temp.'info.git.user'
+//OUT = Helper.mergeMaps(CFG,temp.'info')
 
 
 //println("temp: " + temp.getClass())
