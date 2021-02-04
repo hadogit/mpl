@@ -13,7 +13,8 @@ else
  // OUT = Helper.mergeMaps(CFG,MPLModule('Default Checkout', CFG))
 
 println(out.getClass())
-OUT = Helper.mergeMaps(CFG,out)
+println("CFG.git: " + CFG.'git')
+OUT = Helper.mergeMaps(CFG.'git',out)
 //log.info(out.'git.user')
 //OUT.'out' = out
 log.info(OUT.'out.git.user')
