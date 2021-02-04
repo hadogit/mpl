@@ -21,4 +21,4 @@ println("CFG.git: " + CFG.'git')
 OUT = Helper.mergeMaps(CFG,temp.'out')
 //log.info(out.'git.user')
 //OUT.'out' = out
-log.info(OUT.'out.git.user')
+log.info(OUT.'git.user')
