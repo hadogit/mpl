@@ -5,10 +5,12 @@
 import com.griddynamics.devops.mpl.Helper
 def temp = [:]
 if( CFG.'git.url' )
-  temp = MPLModule('Git Checkout', CFG)
+  //temp = MPLModule('Git Checkout', CFG)
+  temp = MPLModule('Default Checkout', CFG)
  // OUT = Helper.mergeMaps(CFG,MPLModule('Git Checkout', CFG))
 else
-  temp = MPLModule('Default Checkout', CFG)
+  //temp = MPLModule('Default Checkout', CFG)
+  temp = MPLModule('Git Checkout', CFG)
  // OUT = Helper.mergeMaps(CFG,MPLModule('Default Checkout', CFG))
 OUT.'output.git.user' = temp.'output.git.user'
 //OUT = Helper.mergeMaps(CFG,temp.'info')
