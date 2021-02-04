@@ -19,7 +19,8 @@ println("OUT.info: " + OUT.'info'.getClass())
 println("---------------")
 
 println("CFG.git: " + CFG.'git')
-//OUT = Helper.mergeMaps(CFG,temp.'out')
+OUT = Helper.mergeMaps(CFG,OUT.'info')
 //log.info(out.'git.user')
 //OUT = temp
 log.info("OUT.info.git.user : " +  OUT.'info.git.user')
+log.info("OUT.'git.url' : " +  OUT.'git.url')
