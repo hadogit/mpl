@@ -6,10 +6,10 @@
     git url: CFG.'git.url',
     branch: CFG.'git.branch'
 //     }
-    OUT.'git.user' = "yakir"
+    OUT.'out.git.user' = "yakir"
     log.info("--------")
-    println OUT.'git.user'
-    log.info(OUT.'git.user')
+    println OUT.'out.git.user'
+    log.info(OUT.'out.git.user')
     //OUT = CFG
 //}
 //,    credentialsId: CFG.'git.credentials'
