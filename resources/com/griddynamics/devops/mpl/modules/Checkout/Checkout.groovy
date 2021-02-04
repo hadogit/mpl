@@ -22,5 +22,5 @@ println("CFG.git: " + CFG.'git')
 OUT = Helper.mergeMaps(CFG,OUT.'info')
 //log.info(out.'git.user')
 //OUT = temp
-log.info("OUT.info.git.user : " +  OUT.'info.git.user')
+log.info("OUT.git.user : " +  OUT.'git.user')
 log.info("OUT.'git.url' : " +  OUT.'git.url')
