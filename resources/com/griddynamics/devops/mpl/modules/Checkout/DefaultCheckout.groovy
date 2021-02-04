@@ -11,7 +11,6 @@ checkout(
         doGenerateSubmoduleConfigurations: false, 
         extensions: [
             [$class: 'CloneOption', noTags: CFG.'git.noTags', reference: '', shallow: CFG.'git.shallow'], 
-            [$class: 'CleanBeforeCheckout']], submoduleCfg: [], url: "${CFG.'git.url'}"]
-        ]
-    ]			
+            [$class: 'CleanBeforeCheckout']],
+            submoduleCfg: [], url: "${CFG.'git.url'}"]
 )
