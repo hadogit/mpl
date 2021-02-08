@@ -14,3 +14,4 @@ checkout(
             [$class: 'CleanBeforeCheckout']], submoduleCfg: [], userRemoteConfigs: [[ url: CFG.'git.url']]]
 )
 OUT.'output.git.user' = "yakir"
+OUT.'output.git.commit' = "myCommit"
