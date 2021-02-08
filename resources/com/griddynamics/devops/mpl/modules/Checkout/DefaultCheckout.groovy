@@ -13,3 +13,4 @@ checkout(
             [$class: 'CloneOption', noTags: CFG.'git.noTags', reference: '', shallow: CFG.'git.shallow'], 
             [$class: 'CleanBeforeCheckout']], submoduleCfg: [], userRemoteConfigs: [[ url: CFG.'git.url']]]
 )
+OUT.'output.git.user' = "yakir"
