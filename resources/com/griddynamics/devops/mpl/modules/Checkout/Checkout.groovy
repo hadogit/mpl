@@ -13,7 +13,7 @@ else
   temp = MPLModule('Git Checkout', CFG)
  // OUT = Helper.mergeMaps(CFG,MPLModule('Default Checkout', CFG))
 
-OUT.'output.git' += temp.'output.git'
+OUT.'output.git' = temp.'output.git'
 println(OUT.'output.git.user')  // = temp.'output.git.user'
 
 for (inGit in OUT)
